@@ -113,7 +113,7 @@ KNOWN ISSUES:
 AUTHORISHIP:
 ================================================================================
 
-    Cache::Bounded VERSIONTAGE DATETAG
+    Cache::Bounded VERSIONTAG DATETAG
 
     (c) YEARTAG, Phillip Pollard <bennie@cpan.org>
     Released under the Perl Artistic License
