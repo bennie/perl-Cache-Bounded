@@ -122,7 +122,7 @@ The default of this value is 500,000.
 =head3 get($key)
 
 Returns the cached value associated with the given key. If no value has 
-been cached foe that key, the retruned value is undefined.
+been cached for that key, the returned value is undefined.
 
 =head3 set($key,$value)
 
@@ -158,7 +158,7 @@ Use scalar data.
 
     Cache::Bounded VERSIONTAG DATETAG
 
-    (c) YEARTAG, Phillip Pollard <bennie@cpan.org>
+    (c) 2004-YEARTAG, Phillip Pollard <bennie@cpan.org>
     Released under the Perl Artistic License
 
     Derived from Cache::Sloppy v1.3 2004/03/02
