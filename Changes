@@ -2,7 +2,12 @@ Revision history for Perl extension Cache::Bounded.
 
 VERSIONTAG  DATETAG
 
+	Cleaned up some documentation typos.
+
+1.05  2011/09/30
+
 	Added a publically accessible purge() method.
+	Automated the module packaging for CPAN.
 
 1.03  2004/04/06
 
