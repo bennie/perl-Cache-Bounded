@@ -2,10 +2,10 @@
 set -e
 
 MODULE='lib/Cache/Bounded.pm'
-VERSION=`cvs status $MODULE | grep Working | awk '{ print $3 }' | tr '.' ' ' | awk '{ printf "v%d.%02d", $1, $2 }'`
+VERSION=`cvs status $MODULE | grep Working | awk '{ print $3 }' | tr '.' ' ' | awk '{ printf "%d.%02d", $1, $2 }'`
 DATE=`date '+%Y/%m/%d'`
 YEAR=`date '+%Y'`
-TARDIR="Cache-Bounded-$VERSION";
+TARDIR="Cache-Bounded-v$VERSION";
 
 echo
 echo "Module  : $MODULE"
