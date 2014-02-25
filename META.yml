@@ -1,15 +1,5 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Cache-Bounded
-version:      1.03
-version_from: lib/Cache/Bounded.pm
-installdirs:  site
-requires:
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.21
 --- #YAML:1.0
-name:               Rcs-Parser
+name:               Cache-Bounded
 version:            VERSIONTAG
 abstract:           Parse and analyze RCS files
 author:
@@ -22,22 +12,21 @@ build_requires:
     ExtUtils::MakeMaker:  0
 requires:
     perl:               5.008001
-    Sort::Versions:     0
     Test::Simple:       0
 resources:
     bugtracker:
-        web:  https://rt.cpan.org/Dist/Display.html?Name=Rcs-Parser
+        web:  https://rt.cpan.org/Dist/Display.html?Name=Cache-Bounded
     repository:
         type:  git
-        url:   git://github.com/bennie/perl-Rcs-Parser.git
-        web:   http://github.com/bennie/perl-Rcs-Parser
+        url:   git://github.com/bennie/perl-Cache-Bounded.git
+        web:   http://github.com/bennie/perl-Cache-Bounded
 no_index:
     directory:
         - t
         - inc
 provides:
-    Rcs::Parser:
-        file: lib/Rcs/Parser.pm
+    Cache::Bounded:
+        file: lib/Cache/Bounded.pm
         version: VERSIONTAG
 generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
