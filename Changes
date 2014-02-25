@@ -2,6 +2,11 @@ Revision history for Perl extension Cache::Bounded.
 
 VERSIONTAG  DATETAG
 
+	Updated meta information
+	Added LICENSE file to distribution
+
+1.06  2012/03/04
+
 	Tests updated to be compatible with perl 5.15. 
 	(Swapped to Test::Simple to avoid using future bareword "plan")
 
