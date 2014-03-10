@@ -2,6 +2,8 @@ Revision history for Perl extension Cache::Bounded.
 
 VERSIONTAG  DATETAG
 
+1.07  2014/02/25
+
 	Updated meta information
 	Added LICENSE file to distribution
 
