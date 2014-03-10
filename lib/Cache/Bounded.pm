@@ -1,6 +1,7 @@
 package Cache::Bounded;
 $Cache::Bounded::VERSION='VERSIONTAG';
 
+use warnings;
 use strict;
 
 sub new {
