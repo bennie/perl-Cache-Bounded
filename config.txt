@@ -8,6 +8,4 @@ $license = 'artistic_2';
 $abstract    = 'A size-aware in-memory cache optimized for speed';
 $description = $abstract;
 
-$perl_ver = '5.006001';
-
 %requires = ( 'Test::More' => '0', 'Test::Simple' => '0' );

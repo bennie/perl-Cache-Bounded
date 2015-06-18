@@ -11,3 +11,4 @@ t/01-load
 t/02-insert
 t/03-read.t
 t/04-resize.t
+t/05-purge.t
