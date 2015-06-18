@@ -2,6 +2,10 @@ Revision history for Perl extension Cache::Bounded.
 
 VERSIONTAG  DATETAG
 
+    Was incorrectly testing cache on every insertion past the first interval.
+
+1.08  2014/03/10
+
 	Added a POD test
 	Moving to an automated build of meta data
 

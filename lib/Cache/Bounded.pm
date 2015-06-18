@@ -40,8 +40,9 @@ sub set {
   my $data = shift @_;
   $self->{count}++;
 
-  if ( $self->{count} > $self->{interval} && scalar(keys %{$self->{cache}}) > $self->{size}) {
-    $self->purge();
+  if ( $self->{count} >= $self->{interval} ) {
+    $self->{count} = 0;
+    $self->purge() if (scalar(keys %{$self->{cache}})+1) >= $self->{size};
   }
 
   $self->{cache}->{$key} = $data;
@@ -78,7 +79,7 @@ Additionally, to aid speed, the "size" check doesn't occur on every
 insertion. Only after a count of a certain number of insertions (default
 1,000) is the size check performed. If the size limit has been exceeded,
 the entire cache is purged. (Since there is no usage analysis, there is no
-other logical depreciation that can be applied)
+other logical depreciation that can be applied.)
 
 This produces a very fast in-memory cache that you can tune to approximate
 size based upon your data elements.
